@@ -6,7 +6,7 @@ All features that implements our language (Jigot)
 
 1 - Download from repository the project:
 
-https://github.com/EpitechPromo2025/B-FUN-500-STG-5-1-glados-paul.gazeau-rousseau
+https://github.com/MrStudEpi/jigot/
 
 2 - Launch Makefile
 
