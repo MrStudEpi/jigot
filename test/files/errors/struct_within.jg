@@ -1,0 +1,19 @@
+# Test if a struct is in another struct (We don't handle it)
+
+two struct {
+    x int;
+}
+
+one struct {
+    x struct_two;
+    y int;
+}
+
+_main int () {
+
+    rrr struct_one;
+    
+    rrr->y print;
+    rrr->x->x print;
+    0 return;
+}

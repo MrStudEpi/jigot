@@ -1,0 +1,6 @@
+_main int () {
+    x int = 42;
+    s string = "hello world";
+    t bool = true;
+    v void = true; # Error
+}

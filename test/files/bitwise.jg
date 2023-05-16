@@ -1,0 +1,15 @@
+_main int ()
+{
+    xor int = 1 ^ 2;
+    and int = 1 & 1;
+    or int = 1 | 1;
+    shiftl int = 1 << 1;
+    shiftr int = 1 >> 1;
+
+    xor print;
+    and print;
+    or print;
+    shiftl print;
+    shiftr print;
+    0 return;
+}

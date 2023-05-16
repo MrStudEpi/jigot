@@ -1,0 +1,6 @@
+_main int ()
+{
+    x int = 5;
+    x = x :: foo;
+    0 return;
+}

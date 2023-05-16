@@ -1,0 +1,13 @@
+inside_one string ()
+{
+    33 exit;
+    "PEOPOOOO" return;
+}
+
+_main int ()
+{
+    "hello world" print;
+    () inside_one;
+    "bite" print;
+    1 return;
+}

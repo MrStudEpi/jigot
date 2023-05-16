@@ -1,0 +1,6 @@
+_main int () {
+    x list_int = [1, 2, 3];
+
+    x[0] print;
+    0 return;
+}

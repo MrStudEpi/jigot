@@ -1,0 +1,18 @@
+name struct {
+    x int;
+    y int;
+    s string;
+    b bool;
+}
+
+_main int () {
+
+    ex struct_name = { x = 5, y = 2 };
+
+    ex->x print;
+    ex->x = 10;
+    ex->x print;
+    ex->y *= ex->x;
+    ex->y print;
+    0 return;
+}

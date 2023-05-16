@@ -1,0 +1,11 @@
+lol struct {
+    x int;
+    y int;
+}
+
+_main int ()
+{
+    lol struct_lol;
+    lol struct_lol;
+    0 return;
+}

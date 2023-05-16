@@ -1,0 +1,6 @@
+_main int ()
+{
+    ex struct_test = { x = 0, y = 0 };
+
+    0 return;
+}

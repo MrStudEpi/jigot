@@ -1,0 +1,7 @@
+lol int (name string, value int) {
+    (name.len + value) return;
+}
+
+_main int () {
+    (4 "hello") lol return;
+}

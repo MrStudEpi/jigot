@@ -1,0 +1,7 @@
+_main int ()
+{
+    x int;
+
+    x = false;
+    0 return;
+}

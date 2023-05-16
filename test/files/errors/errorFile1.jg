@@ -1,0 +1,5 @@
+_main int () {
+    lol int = 0;
+
+    lol ++= 1; #Error
+}

@@ -1,0 +1,6 @@
+_main int ()
+{
+    m int = 0;
+
+    m %= 1.4; # Error
+}

@@ -1,0 +1,7 @@
+_main int ()
+{
+    content string = "soluce";
+
+    content[10] print;
+    0 return;
+}

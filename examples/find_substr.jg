@@ -1,0 +1,30 @@
+/*
+
+    A Library for jigot language written in jigot*
+
+*/
+
+find_substr int (str string, sub string)
+{    
+    idx int = 0;
+
+    (++idx; idx < str.len) for () {
+        idxt int = 0;
+        (str[idx + idxt] == sub[idxt]) while {
+            (idxt == sub.len - 1) if {
+                idx return;
+            }
+            ++idxt;
+        }
+    }
+    (-1) return; 
+}
+
+_main int () {
+    idxe int = ("hello" "lo") find_substr;
+    idxet int = ("hello" "jg") find_substr;
+
+    idxe print;
+    idxet print;
+    0 return;
+}

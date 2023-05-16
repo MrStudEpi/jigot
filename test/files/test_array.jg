@@ -1,0 +1,8 @@
+_main int () {
+    tab list_int = [4];
+
+    tab = tab ++ 5;
+    tab[0] print;
+    tab[1] print;
+    0 return;
+}

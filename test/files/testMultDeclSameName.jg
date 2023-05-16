@@ -1,0 +1,12 @@
+lol int (leng int) {
+    leng = 5;
+    0 return;
+}
+
+
+_main int () {
+    leng int = 2;
+    y int = (leng) lol;
+    leng print;
+    0 return;
+}

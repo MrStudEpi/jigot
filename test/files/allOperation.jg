@@ -1,0 +1,149 @@
+/*
+
+    doOp (OP "==") (StackNumber n1) (StackNumber n2) = Just (StackBool (n1 == n2))
+doOp (OP "==") (StackFloat n1) (StackFloat n2) = Just (StackBool (n1 == n2))
+doOp (OP "==") (StackString n1) (StackString n2) = Just (StackBool (n1 == n2))
+doOp (OP "==") (StackBool n1) (StackBool n2) = Just (StackBool (n1 == n2))
+doOp (OP "==") (StackArray n1) (StackArray n2) = Just (StackBool (n1 == n2))
+doOp (OP "!=") (StackNumber n1) (StackNumber n2) = Just (StackBool (n1 /= n2))
+doOp (OP "!=") (StackFloat n1) (StackFloat n2) = Just (StackBool (n1 /= n2))
+doOp (OP "!=") (StackString n1) (StackString n2) = Just (StackBool (n1 /= n2))
+doOp (OP "!=") (StackBool n1) (StackBool n2) = Just (StackBool (n1 /= n2))
+doOp (OP "!=") (StackArray n1) (StackArray n2) = Just (StackBool (n1 /= n2))
+doOp (OP ">") (StackNumber n1) (StackNumber n2) = Just (StackBool (n1 > n2))
+doOp (OP ">") (StackFloat n1) (StackFloat n2) = Just (StackBool (n1 > n2))
+doOp (OP ">") (StackString n1) (StackString n2) = Just (StackBool (n1 > n2))
+doOp (OP ">=") (StackNumber n1) (StackNumber n2) = Just (StackBool (n1 >= n2))
+doOp (OP ">=") (StackFloat n1) (StackFloat n2) = Just (StackBool (n1 >= n2))
+doOp (OP ">=") (StackString n1) (StackString n2) = Just (StackBool (n1 >= n2))
+doOp (OP "<") (StackNumber n1) (StackNumber n2) = Just (StackBool (n1 < n2))
+doOp (OP "<") (StackFloat n1) (StackFloat n2) = Just (StackBool (n1 < n2))
+doOp (OP "<") (StackString n1) (StackString n2) = Just (StackBool (n1 < n2))
+doOp (OP "<=") (StackNumber n1) (StackNumber n2) = Just (StackBool (n1 <= n2))
+doOp (OP "<=") (StackFloat n1) (StackFloat n2) = Just (StackBool (n1 <= n2))
+doOp (OP "<=") (StackString n1) (StackString n2) = Just (StackBool (n1 <= n2))
+doOp (OP "&&") (StackBool n1) (StackBool n2) = Just (StackBool (n1 && n2))
+doOp (OP "||") (StackBool n1) (StackBool n2) = Just (StackBool (n1 || n2))
+
+*/
+
+_main int ()
+{
+    x int;
+    y float;
+    content string;
+    words list_string = [ content ];
+    ret bool;
+
+    x = x + 1;
+    y = y + 1.0;
+    x += 1;
+    y += 1.0;
+    x++;
+    x print;
+    y print;
+    x = x / 1;
+    y = y / 1.0;
+    x /= 1;
+    y /= 1.0;
+    x print;
+    y print;
+    x = x * 1;
+    y = y * 1.0;
+    x *= 1;
+    y = y * 1.0;
+    x print;
+    y print;
+    x = x % 1;
+    x %= 1;
+    x print;
+    x = x - 1;
+    y = y - 1.0;
+    x -= 1;
+    y -= 1.0;
+    x--;
+    x print;
+    y print;
+    content = content ++ "Hello ";
+    content ++= "world";
+    content print;
+    ret print;
+    # Equality
+    ret = x == -3;
+    ret print;
+    ret = y == 0.0;
+    ret print;
+    ret = content == "Hello world";
+    ret print;
+    ret = true == true;
+    ret print;
+    words[0] print;
+    words[0] = "wow";
+    words[0] print;
+    words = words ++ ["lol"];
+    words print;
+    # Disequality
+    ret = x != 0;
+    ret print;
+    ret = y != 0.0;
+    ret print;
+    ret = content != "Hello world";
+    ret print;
+    ret = true != true;
+    ret print;
+    # Superiority
+    ret = x > 0;
+    ret print;
+    ret = y > 0.0;
+    ret print;
+    ret = content > "Hello world";
+    ret print;
+    # Superiority Or equal
+    ret = x >= 0;
+    ret print;
+    ret = y >= 0.0;
+    ret print;
+    ret = content >= "Hello world";
+    ret print;
+    # Lower
+    ret = x < 0;
+    ret print;
+    ret = y < 0.0;
+    ret print;
+    ret = content < "Hello world";
+    ret print;
+    # Lower Or equal
+    ret = x <= 0;
+    ret print;
+    ret = y <= 0.0;
+    ret print;
+    ret = content <= "Hello world";
+    ret print;
+    # Binary Operators
+    ret = true && true;
+    ret print;
+    ret = true || false;
+    ret print;
+    # Power Operators
+
+    n int = 5;
+    p int = 2;
+
+    n = n ** p;
+    n print;
+
+    nf float = 5.0;
+    pf float = 2.0;
+
+    nf = nf ** pf;
+    nf print;
+
+    xj int = x + y;
+    xj print;
+    y = y + x;
+    y print;
+
+    words ++= "4";
+    words print;
+    0 return;
+}

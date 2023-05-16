@@ -1,0 +1,5 @@
+_main int ()
+{
+    0 return;
+    "hello" print;
+}

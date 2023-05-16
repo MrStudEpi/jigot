@@ -1,0 +1,7 @@
+_main int () 
+{
+    uuuu bool = true;
+    (!uuuu) if
+        "hello" print;
+    0 return;
+}

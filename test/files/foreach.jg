@@ -1,0 +1,7 @@
+_main int () {
+    items list_string = ["hello", "world"];
+
+    (item string : items) for
+        item print;
+    0 return;
+}

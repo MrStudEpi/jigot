@@ -1,0 +1,10 @@
+_main int ()
+{
+    x int = null;
+    y int;
+
+    z int = x + y;
+
+    
+    0 return;
+}

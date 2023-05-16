@@ -1,0 +1,7 @@
+_main int () {
+    
+    (0 + 5 * 7) while { # Infinite loop
+        "Lol" print;
+    }
+    0 return;
+}

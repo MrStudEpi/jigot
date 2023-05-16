@@ -1,0 +1,25 @@
+_main int () {
+    y int = 40;
+    {
+        x int = 42;
+        {
+            {
+                {
+                    z int = 42;
+                    za int = 43;
+                    {
+                    }
+                    z print;
+                    za print;
+                    {
+                        lol int = 0;
+                    }
+                    n int = z + za;
+                    n print;
+                }
+            }
+            x print;
+        }
+    }
+    y return;
+}

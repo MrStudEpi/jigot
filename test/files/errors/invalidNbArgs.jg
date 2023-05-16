@@ -1,0 +1,10 @@
+lol int (number int, other int)
+{
+    0 return;
+}
+
+_main int ()
+{
+    (2) lol print;
+    0 return;
+}

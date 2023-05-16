@@ -1,0 +1,7 @@
+foo int () {
+    21 return;
+}
+
+_main int () {
+    (2 * foo) return;
+}

@@ -1,0 +1,14 @@
+_main int () {
+    array list_string = ["hello", "world"];
+
+    array = array.append("maybe");
+    content string = array.popl();
+    content print;
+    array[1] print;
+    array = array.append("one");
+    array = array.append("two");
+    content = array.popr();
+    content print;
+    array print;
+    0 return;
+}

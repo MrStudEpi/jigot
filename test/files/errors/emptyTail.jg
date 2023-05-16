@@ -1,0 +1,6 @@
+_main int ()
+{
+    lol list_int = [];
+
+    lol.tail(); # Error
+}

@@ -1,0 +1,12 @@
+test int = 2;
+
+_main int ()
+{
+    test int (number int)
+    {
+        number return;
+    }
+    
+    test print;
+    0 return;
+}

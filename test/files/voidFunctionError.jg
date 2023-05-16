@@ -1,0 +1,9 @@
+lol void () {
+    "lol" print;
+    0 return; // Cannot return in voidFunction
+}
+
+_main int () {
+    () lol;
+    0 return;
+}

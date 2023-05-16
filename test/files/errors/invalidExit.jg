@@ -1,0 +1,5 @@
+_main int ()
+{
+    "hello" exit;
+    0 return;
+}

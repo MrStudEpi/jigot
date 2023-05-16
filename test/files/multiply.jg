@@ -1,0 +1,10 @@
+foo int (num int) {
+    (num / 2) return;
+}
+
+_main int () {
+    nb int = 2;
+    nb = (4 foo) * nb;
+    nb print;
+    0 return;
+}

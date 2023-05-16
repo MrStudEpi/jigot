@@ -1,0 +1,14 @@
+empty struct {
+    x int;
+}
+
+_main int ()
+{
+    ex struct_empty;
+
+    ex->x print;
+    (ex->x == 0) if {
+        "Yay" print;
+    }
+    0 return;
+}

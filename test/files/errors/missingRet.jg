@@ -1,0 +1,12 @@
+lol int ()
+{
+    content string = "hello world";
+
+    content.append("h");
+}
+
+_main int ()
+{
+    () lol;
+    0 return;
+}

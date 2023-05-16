@@ -1,0 +1,6 @@
+_main int ()
+{
+    d int = 0;
+
+    d %= 0; # Error
+}

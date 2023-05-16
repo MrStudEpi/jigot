@@ -1,0 +1,10 @@
+_main int () {
+    name string = "hello";
+
+    name print;
+    name.len print;
+    name[2] print;
+    name.append("l") print;
+    name print;
+    0 return;
+}

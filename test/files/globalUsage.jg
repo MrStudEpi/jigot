@@ -1,0 +1,23 @@
+ye int = 10;
+
+doSomethingWithYe void (count int) {
+    (count < 0) if {
+        return;
+    }
+    (ye--; count != 0) for () {
+        count--;
+    }
+}
+
+_main int () {
+
+    ye print;
+
+    (ye != 0) while {
+        ye--;
+    }
+    ye print;
+    (10) doSomethingWithYe;
+    ye print;
+    0 return;
+}

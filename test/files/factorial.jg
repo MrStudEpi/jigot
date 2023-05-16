@@ -1,0 +1,13 @@
+# a fix si on inverse dans le return
+
+factorial int (number int) {
+    (number == 1) if {
+        1 return;
+    }
+    (((number - 1) factorial) * number) return;
+}
+
+_main int () {
+    10 factorial print;
+    0 return;
+}

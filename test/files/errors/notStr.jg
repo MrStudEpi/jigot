@@ -1,0 +1,7 @@
+_main int () 
+{
+    uuuu string = "oui";
+    (!uuuu) if
+        uuuu print;
+    0 return;
+}

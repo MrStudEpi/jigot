@@ -1,0 +1,7 @@
+_main int ()
+{
+    array list_float = [1, 2, "3"];
+
+    array.append();
+    0 return;
+}

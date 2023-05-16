@@ -1,0 +1,5 @@
+_main int () {
+    content string = "README.md" readFile;
+    content print;
+    0 return;
+}

@@ -1,0 +1,7 @@
+_main int ()
+{
+    (!1) while {
+        "lol" print;
+    }
+    0 return;
+}

@@ -1,0 +1,10 @@
+foo int () {
+    42 return;
+}
+
+_main int () {
+    (foo < 10) if {
+        (foo * 3) return;
+    }
+    (foo / 2) return;
+}

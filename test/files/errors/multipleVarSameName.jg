@@ -1,0 +1,7 @@
+_main int ()
+{
+    x int = 0;
+    x int = 1;
+}
+
+# "Error: Compiler was unable to compile the code (AST->IST), reason: Can't compile sequence -> Variable already defined: x"

@@ -1,0 +1,10 @@
+lol int (elem string)
+{
+    elem.len return;
+}
+
+_main int () {
+    x string = "hello";
+
+    (x) lol return;
+}

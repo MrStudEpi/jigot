@@ -1,0 +1,6 @@
+_main int ()
+{
+    x int = 42.len;
+
+    0 return;
+}

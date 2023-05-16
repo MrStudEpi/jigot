@@ -1,0 +1,7 @@
+_main int ()
+{
+    content string = "./main.jg" readFile;
+
+    content print;
+    0 return;
+}

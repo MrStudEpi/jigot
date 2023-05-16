@@ -1,0 +1,13 @@
+lol int () {
+    x int = 0;
+}
+
+getMessage string () {
+    x int = 0;
+    "HOOOOOOOOOOOOOOO" return;
+}
+
+_main int () {
+    x int = 0;
+    0 return;
+}

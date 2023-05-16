@@ -1,0 +1,24 @@
+firm struct {
+    nb_workers int;
+    name string;
+    money int;
+}
+
+# A COMMENTARY
+
+create_firma struct_firm (nb_workers int, name string, money int)
+{
+    nfirm struct_firm = { nb_workers = nb_workers, name = name, money = money };
+
+    nfirm return;
+}
+
+banka struct_firm = (10 "Banka" 100) create_firma;
+array list_float = ["1.3"];
+
+_main int ()
+{
+    banka->nb_workers print;
+    array[0] print;
+    0 return;
+}

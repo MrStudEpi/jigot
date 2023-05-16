@@ -1,0 +1,7 @@
+_main int ()
+{
+    b bool;
+
+    b = "hello"; # error
+    0 return;
+}

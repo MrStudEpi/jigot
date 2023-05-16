@@ -1,0 +1,7 @@
+_main int ()
+{
+    content string = "hello".append("l");
+
+    content print;
+    0 return;
+}

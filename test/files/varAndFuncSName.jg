@@ -1,0 +1,16 @@
+test int (number int)
+{
+    number return;
+}
+
+camion int ()
+{
+    (4) test return;
+}
+
+_main int ()
+{
+    test int = 2;
+
+    () camion return;
+}

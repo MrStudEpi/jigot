@@ -1,0 +1,16 @@
+
+test int () {
+    x print;
+    lol print;
+    0 return;
+}
+
+_main int () {
+    x int = 0;
+    lol int () {
+        5 return;
+    }
+    (lol + 1) print;
+    () test print;
+    0 return;
+}

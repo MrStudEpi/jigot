@@ -1,0 +1,5 @@
+if int () {
+
+}
+
+# Error: Compiler was unable to compile the code (AST->IST), reason: Error: if is a reserved keyword

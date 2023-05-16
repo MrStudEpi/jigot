@@ -1,0 +1,25 @@
+"jigot" import;
+
+name struct {
+    x int;
+    y int;
+    s string;
+    b bool;
+}
+
+lol int () {
+    ye int = 2;
+    x int = 0;
+
+    (ye != 0) while
+        --ye;
+    ++ye;
+    ye print;
+    x return;
+}
+
+_main int () {
+    xe int = () lol;
+    xe print;
+    0 return;
+}

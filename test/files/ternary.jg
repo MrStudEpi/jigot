@@ -1,0 +1,11 @@
+_main int () {
+
+    x int = true && true ? 1 : 0;
+    y int = 4 > 3 ? 1 : 0;
+
+    x print;
+    y print;
+    0 return;
+}
+
+# 1 1

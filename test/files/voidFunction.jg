@@ -1,0 +1,8 @@
+lol void () {
+    "lol" print;
+}
+
+_main int () {
+    () lol;
+    0 return;
+}

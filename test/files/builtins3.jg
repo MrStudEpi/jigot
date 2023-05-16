@@ -1,0 +1,6 @@
+_main int () {
+    (1 < 10 % 3) print;
+    0 return;
+}
+
+# False

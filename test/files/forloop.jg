@@ -1,0 +1,10 @@
+forl int () {
+    (++x; x != 10) for (x int = 0) {
+        x print;
+    }
+    0 return;
+}
+
+_main int () {
+    forl return;
+}

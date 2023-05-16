@@ -1,0 +1,23 @@
+/*
+    PROJECT POWERED BY IS CREATOR
+*/
+
+
+x int = 0;
+y int = 42;
+
+lol string = "hello";
+
+lolfn void () {
+
+}
+
+d int = 19;
+
+_main int () {
+    x print;
+    y print;
+    lol print;
+    d print;
+    0 return;
+}

@@ -1,0 +1,13 @@
+_main int ()
+{
+    x int = 0;
+    (++x; x < 10) for ();
+    x print;
+    (++x; x < 20) for () x print;
+    x print;
+    (++x; x < 30) for () {
+        ++x;
+    }
+    x print;
+    0 return;
+}

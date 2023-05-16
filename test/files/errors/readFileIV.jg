@@ -1,0 +1,5 @@
+_main int ()
+{
+    0 readFile; # Error: Evaluator was unable to execute the code (IST->Stack), reason: Not a string
+    0 return;
+}

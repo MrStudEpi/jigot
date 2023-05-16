@@ -1,0 +1,50 @@
+name: Haskell Development
+
+on:
+  push:
+    branches:
+      - development
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+
+    - name: Add repositories
+      run: |
+            sudo add-apt-repository main
+            sudo add-apt-repository universe
+            sudo add-apt-repository restricted
+            sudo add-apt-repository multiverse  
+
+    - name: Install Ubuntu Package
+      run: |
+            sudo apt-get update
+            sudo apt-get install -y libgmp-dev
+            sudo apt-get install -y libffi-dev
+            sudo apt-get install -y zlib1g-dev
+
+    - name: Checkout repository
+      uses: actions/checkout@v1
+
+    - name: Install Stack
+      run: curl -sSL https://get.haskellstack.org/ | sh -s - -f
+
+    - name: Build & Move
+      run: |
+        stack build
+        mkdir -p dist/ && mv $(stack path --local-install-root)/bin/glados-exe dist/
+  
+    - name: Run tests
+      run: stack test --coverage
+
+    - name: Create Pre-Release
+      uses: "marvinpinto/action-automatic-releases@latest"
+      with:
+        repo_token: "${{ secrets.GITHUB_TOKEN }}"
+        automatic_release_tag: "latest"
+        prerelease: true
+        title: "Development Build"
+        files: |
+          README.md
+          dist/glados-exe

@@ -1,0 +1,17 @@
+doSomething void () {
+    x int = () getNumber;
+    msg string = () getMessage;
+
+    "Martin has received " print;
+    x print;
+    " saying that " print;
+    msg print;
+}
+
+getNumber int () {
+    42 return;
+}
+
+getMessage string () {
+    "HOOOOOOOOOOOOOOO" return;
+}

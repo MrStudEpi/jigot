@@ -1,0 +1,37 @@
+switchLike bool (x int) {
+    (x == 0) if
+        false return; // When x == 0
+    else (x > 1 && x <= 2) if
+        true return; // When x is 2
+    else (x >= 3 && x < 12) if
+        false return; // When x between 3 and 12
+    else ((x >= 0 && x <= 12) || x > 20) if
+        true return; // When x is in range [-inf, 12] or > 20 
+    else (x < -6) if
+        false return; // When x is in range [inf, -6]
+    else (x != 19) if
+        true return; // When x is is not 19
+    true return; // When x is 19
+}
+
+_main int () {
+    test_first bool = (0) switchLike; // false (1)
+    test_second bool = (1) switchLike; // false (4)
+    test_third bool = (2) switchLike; // false (2)
+    test_four bool = (3) switchLike; // false (3)
+    test_five bool = (13) switchLike; // false (6)
+    test_six bool = (21) switchLike; // false (4)
+    test_seven bool = (-7) switchLike; // false (5)
+    test_pass bool = (19) switchLike; // true
+
+    test_first print;
+    test_second print;
+    test_third print;
+    test_four print;
+    test_five print;
+    test_six print;
+    test_seven print;
+    test_pass print;
+
+    0 return;
+}

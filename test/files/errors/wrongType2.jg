@@ -1,0 +1,7 @@
+_main int ()
+{
+    s string;
+
+    s = 12; # Error
+    0 return;
+}

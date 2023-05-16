@@ -1,0 +1,20 @@
+ifcheck int (number int, error string) {
+    x int = 2;
+    lol string = "this is a string";
+
+    (x == 2) if {
+        lol print;
+    } else (number == 2) if {
+        x *= 2;
+        x += 2;
+        x return;
+    } else {
+        3 return;
+    }
+    error print;
+    0 return;
+}
+
+_main int () {
+    (2 "hello") ifcheck return; 
+}

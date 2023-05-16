@@ -1,0 +1,5 @@
+_main int () {
+    x list_int = [];
+
+    x[0] return; # x[0] return false if doesn't exist
+}

@@ -1,0 +1,10 @@
+add int (a int, b int) {
+    (a + b) return;
+}
+
+_main int () {
+    x int = (((1 2) add) 1) add;
+
+    x print;
+    0 return;
+}

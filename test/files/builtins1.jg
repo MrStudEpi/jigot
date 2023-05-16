@@ -1,0 +1,3 @@
+_main int () { "a" print; 1 return; }
+
+# Print "a" & return 1

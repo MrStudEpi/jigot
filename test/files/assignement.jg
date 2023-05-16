@@ -1,0 +1,11 @@
+_main int () {
+    x int = 10;
+    lol string = "lol";
+
+    x *= 100;
+    x /= 10;
+    lol ++= "b";
+    x print;
+    lol print;
+    0 return;
+}

@@ -1,0 +1,4 @@
+_main int () {
+    ("test_output" "Hello World\n") writeFile;
+    0 return;
+}

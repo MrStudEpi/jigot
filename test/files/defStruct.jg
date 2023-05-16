@@ -1,0 +1,19 @@
+all struct {
+    content string;
+    x int;
+    z float;
+    r list_int;
+    b bool;
+}
+
+_main int ()
+{
+    all struct_all;
+
+    all->content print;
+    all->x print;
+    all->z print;
+    all->r print;
+    all->b print;
+    0 return;
+}

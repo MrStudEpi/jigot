@@ -1,0 +1,18 @@
+_main int ()
+{
+    content list_string = ["hello"];
+    msg string = "amdulila";
+    idx int = 0;
+
+    content[idx] print;
+    content[idx] = "world";
+    content[idx] print;
+    content print;
+
+    msg[0] print;
+    //msg[idx] = "ab"; Error
+    //msg[idx] = 1 Error
+    msg[0] = "b";
+    msg print;
+    0 return;
+}

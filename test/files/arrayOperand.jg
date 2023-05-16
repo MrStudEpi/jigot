@@ -1,0 +1,31 @@
+_main int ()
+{
+    array list_string = ["hello", "world"];
+    lene int = array.len();
+    content string = array.popl();
+
+    array.append("lol").append("LOL").append("JEJEJEJJEJE");
+    content = array.popl();
+    content print;
+    content = array.popr();
+    content print;
+    content = array.popl();
+    content print;
+    content = array.popr();
+    content print;
+    array print;
+
+    content.popl() print;
+    content print;
+    content.popr() print;
+    content print;
+
+    array.append("Hello").append("World");
+
+    array.tail();
+    array print;
+
+    content.tail();
+    content print;
+    0 return;
+}

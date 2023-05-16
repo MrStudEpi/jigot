@@ -1,0 +1,11 @@
+lol int ()
+{
+
+}
+
+lol string ()
+{
+
+}
+
+# "Error: Compiler was unable to compile the code (AST->IST), reason: Can't compile sequence -> Function already defined: lol"

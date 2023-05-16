@@ -1,0 +1,10 @@
+test struct {
+    int x;
+}
+
+_main int () 
+{
+    uuuu struct_test;
+    uuuu->x = 10;
+    0 return;
+}

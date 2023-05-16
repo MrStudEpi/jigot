@@ -1,0 +1,18 @@
+lol int ()
+{
+    x int = 0; # Error not here
+}
+
+_main int ()
+{
+    x int = 0;
+    "hello" print;
+    "world" print;
+    "" print;
+    "my" print;
+    "name" print;
+    "is" print;
+    "george" print;
+    x int = 10; # Error here
+    0 return;
+}

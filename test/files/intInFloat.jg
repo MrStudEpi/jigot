@@ -1,0 +1,8 @@
+_main int ()
+{
+    x float = 1;
+    y int = "56";
+
+    y print;
+    0 return;
+}

@@ -1,0 +1,34 @@
+human struct {
+    name string;
+    age int;
+    alive bool;
+}
+
+create_human struct_human (namep string, agep int, alivep bool)
+{
+    human struct_human = { name = namep, age = agep, alive = alivep };
+
+    (human->name == "RagnBogen") if {
+        "Yay im only a human after all" print;
+    }
+    human return;
+}
+
+_main int () {
+    human struct_human = ("RagnBogen" 37 true) create_human;
+    david struct_human = ("David Guetta" 55 true) create_human;
+    mickael struct_human = ("Mickael Jackson" 50 false) create_human;
+
+    human->name print;
+    human->age print;
+    human->alive print;
+
+    david->name print;
+    david->age print;
+    david->alive print;
+
+    mickael->name print;
+    mickael->age print;
+    mickael->alive print;
+    0 return;
+}

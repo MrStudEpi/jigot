@@ -1,0 +1,3 @@
+_main int () { (2 * 5 == 11 - 1) print; 0 return; }
+
+# True

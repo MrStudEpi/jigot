@@ -1,0 +1,58 @@
+_main int () {
+
+    y float = 2.0;
+    z float = 1.0;
+    x int = 0;
+    s string = "Hello world";
+    b bool = true;
+    list list_string = ["0", "1", "2", "3", "4", "5"];
+    numbers list_int;
+
+    x = x :: int;
+    x print;
+    x = y :: int;
+    x print;
+    x = s :: int;
+    x print;
+    x = b :: int;
+    x print;
+    y = y :: float;
+    y print;
+    y = x :: float;
+    y print;
+    y = s :: float;
+    y print;
+    y = b :: float;
+    y print;
+    b = b :: bool;
+    b print;
+    b = x :: bool;
+    b print;
+    b = y :: bool;
+    b print;
+    b = s :: bool;
+    b print;
+    b = z :: bool;
+    b print;
+    s = s :: string;
+    s print;
+    s = x :: string;
+    s print;
+    s = y :: string;
+    s print;
+    z = s :: float;
+    z print;
+    numbers = list :: int;
+    numbers print;
+
+    x = (1.0 + x :: float) :: int;
+    x print;
+
+    (true :: string) print;
+    (false :: string) print;
+    ((true :: int) :: string) print;
+    ((false :: int) :: string) print;
+    ((true :: float) :: string) print;
+    ((false :: float) :: string) print;
+    0 return;
+}

@@ -1,0 +1,10 @@
+_main int ()
+{
+    fl float = 42.0;
+
+    (fl < 50) while {
+        fl += 1.0;
+    }
+    fl print;
+    0 return;
+}

@@ -1,0 +1,7 @@
+_main int ()
+{
+    content string = "hello";
+
+    content["hello"] print;
+    0 return;
+}

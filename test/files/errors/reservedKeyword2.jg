@@ -1,0 +1,8 @@
+_main int ()
+{
+    string string = "hello world";
+
+    0 return;
+}
+
+# "Error: Compiler was unable to compile the code (AST->IST), reason: Can't compile sequence -> Error: string is a reserved keyword"

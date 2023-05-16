@@ -1,0 +1,11 @@
+_main int ()
+{
+    lol list_int = [1, 0, 2, 3];
+    content string = "Juif";
+
+    lol = lol.tail();
+    lol print;
+    content.tail();
+    content print;
+    0 return;
+}

@@ -1,0 +1,17 @@
+/*
+
+    Concat two strings and return the result
+
+*/
+
+strconcat string (first string, second string)
+{
+    copy string = first;
+    copy_snd string = second;
+    (copy ++ copy_snd) return;
+}
+
+_main int () {
+    ("ki" "rikoo") strconcat print;
+    0 return;
+}
